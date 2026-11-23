@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MEDORA — тренажёр стоматолога</title>
+<meta name="description" content="Учебная платформа для студентов-стоматологов: интерактивная одонтограмма, калькуляторы индексов, атлас зубов и тренажёр нумерации FDI.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%230f8b8d' d='M32 8c-6 0-9 3-14 3S8 9 6 16s2 16 5 24 4 16 8 16 5-8 7-14 3-8 6-8 4 2 6 8 3 14 7 14 5-8 8-16 7-17 5-24-8-5-12-5-8-3-14-3z'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 8c-6 0-9 3-14 3S8 9 6 16s2 16 5 24 4 16 8 16 5-8 7-14 3-8 6-8 4 2 6 8 3 14 7 14 5-8 8-16 7-17 5-24-8-5-12-5-8-3-14-3z"/></svg>
+    <span>MED<b>ORA</b></span>
+  </a>
+  <nav class="nav" id="nav">
+    <a href="#/odontogram">Одонтограмма</a>
+    <a href="#/indices">Индексы</a>
+    <a href="#/atlas">Атлас зубов</a>
+    <a href="#/trainer">Тренажёр FDI</a>
+  </nav>
+</header>
+
+<main id="app" tabindex="-1"></main>
+
+<footer class="footer">
+  <p><b>MEDORA</b> — учебный студенческий проект. Не является медицинским изделием и не предназначен для ведения документации реальных пациентов: не вводите персональные данные.</p>
+  <p>Методики и интерпретации индексов даны по учебной литературе; при расхождении ориентируйтесь на протокол вашей кафедры.</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
